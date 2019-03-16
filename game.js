@@ -14,5 +14,8 @@ ctx.arc(x, y, 50, 0, 2 * Math.PI);
 ctx.stroke(); 
 			}
     
-	 
+function Refresh()
+{
+	canvas.width = canvas.width;
+}	 
 }
